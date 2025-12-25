@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/light_green"
+    tools:context=".Create_Account_page">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/vlogo_removebg_preview"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20sp"
+        android:layout_marginTop="50dp"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+
+            android:layout_height="match_parent">
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="55sp"
+                android:background="@drawable/input"
+                android:layout_gravity="center_horizontal"
+                android:textColorHint="@color/black"
+
+                android:paddingHorizontal="15sp"
+                android:textColor="@color/black"
+                android:id="@+id/name_ca"
+                android:textStyle="italic"
+                android:hint="Enter Name"/>
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="55sp"
+                android:background="@drawable/input"
+                android:layout_gravity="center_horizontal"
+                android:textColorHint="@color/black"
+                android:layout_marginTop="10sp"
+                android:paddingHorizontal="15sp"
+                android:textColor="@color/black"
+                android:id="@+id/number_ca"
+                android:textStyle="italic"
+                android:inputType="number"
+                android:maxLength="10"
+                android:hint="Enter Number"/>
+
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="55sp"
+                android:background="@drawable/input"
+                android:layout_gravity="center_horizontal"
+                android:textColorHint="@color/black"
+                android:layout_marginTop="10sp"
+                android:paddingHorizontal="15sp"
+                android:textColor="@color/black"
+                android:id="@+id/Email_ca"
+                android:textStyle="italic"
+                android:inputType="textEmailAddress"
+                android:hint="Enter Email"/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:id="@+id/male_rbtn"
+                    android:text="Male"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:id="@+id/female_rbtn"
+                    android:text="Female"/>
+            </RadioGroup>
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="55sp"
+                android:background="@drawable/input"
+                android:layout_gravity="center_horizontal"
+                android:textColorHint="@color/black"
+                android:layout_marginTop="10sp"
+                android:paddingHorizontal="15sp"
+                android:textColor="@color/black"
+                android:id="@+id/socitey_ca"
+                android:textStyle="italic"
+                android:inputType="textShortMessage"
+                android:maxLength="20"
+                android:hint="Socitey/Compnay Name"/>
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="55sp"
+                android:background="@drawable/input"
+                android:layout_gravity="center_horizontal"
+                android:textColorHint="@color/black"
+                android:layout_marginTop="10sp"
+                android:paddingHorizontal="15sp"
+                android:textColor="@color/black"
+                android:id="@+id/pass"
+                android:textStyle="italic"
+                android:inputType="textPassword"
+                android:maxLength="20"
+                android:hint="Password"/>
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="55sp"
+                android:backgroundTint="@color/dar_blue"
+                android:textColor="@color/ygreen"
+                android:id="@+id/create_btn"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20sp"
+                android:text="Create Account"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Login"
+                android:id="@+id/login_txt"
+                android:textColor="@color/blue"
+                android:layout_marginTop="10sp"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

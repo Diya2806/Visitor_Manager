@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:paddingLeft="5sp"
+        android:layout_margin="5sp"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/custom_name"/>
+
+
+<TextView
+    android:layout_width="wrap_content"
+
+    android:layout_height="wrap_content"
+    android:id="@+id/custom_entrydate"
+    android:text="Dates"
+
+    android:layout_gravity="center_vertical"/>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/custom_number"
+            android:layout_width="90sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5sp"
+            android:paddingLeft="5sp"
+            android:text="Number" />
+
+        <TextView
+            android:id="@+id/custom_vehical"
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5sp"
+            android:text="Vehical Number" />
+
+        <TextView
+            android:id="@+id/custom_vtype"
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5sp"
+            android:paddingLeft="5sp"
+            android:text="Type" />
+
+        <TextView
+            android:id="@+id/custom_Time_In"
+            android:layout_width="50sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5sp"
+            android:text="Time In" />
+
+        <TextView
+            android:id="@+id/custom_time_out"
+            android:layout_width="60sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5sp"
+            android:text="Time Out" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Print"
+            android:id="@+id/custom_btn"
+            android:layout_marginLeft="5sp"/>
+    </LinearLayout>
+
+
+</LinearLayout>
